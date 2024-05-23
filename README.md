@@ -1,3 +1,5 @@
+## Description
+
 This is my first script for Epicbot, I call it “Bone Man” . I’m excited to show it and see what people might think of it. 
 
 Bone Man is a script meant to take over right after Pro Tutorial Island. It’s to help people who want to have bots essentially start themselves off rather than needing player intervention. 
