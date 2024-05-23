@@ -15,8 +15,7 @@ There is no on screen status display, though you can enable/disable debugging to
 Some notes towards the code I’ve made for myself, in the future I would try to avoid nesting as much as I did in some areas for readability. Though in other cases lack of readability could be due to the code trying to use as little memory as possible, and allow for more bots. 
 
 In my case I was programming in a linear mindset to become familiar, which resulted in my code being a tad less readable and taking up more lines than needed. 
-
-#Using this code
+## Using this code
 
 To use this script, you're going to need to install a code editor for Java, I use IntelliJ 
 You'll then need the appropriate installation on Java on your computer, and the Epicbot API located on their website. 
