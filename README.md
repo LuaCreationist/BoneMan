@@ -12,6 +12,8 @@ BoneMan will choose a random tile from the closest of 4 “Safe Spot” areas wh
 
 BoneMan then chooses a random Boneyard Area, from 4 potential boneyard areas, and picks a random tile to navigate to from that area to search for bones. 
 
+When in a safespot Bone Man will automatically disable Auto-Retaliate and switch to defense. The bot will also keep its inventory visible so the user can track its progress.
+
 There is no on screen status display, though you can enable/disable debugging to output via the debugging variable which is tied to the “Print” function. This is mostly just to save resources in the case of running more bots. 
 
 Some notes towards the code I’ve made for myself, in the future I would try to avoid nesting as much as I did in some areas for readability. Though in other cases lack of readability could be due to the code trying to use as little memory as possible, and allow for more bots. 
@@ -22,5 +24,10 @@ Im also looking for feedback and criticism, as this is the first time in a long 
 
 ## Using this code
 
-To use this script, you're going to need to install a code editor for Java, I use IntelliJ 
+To use this script, you're going to need to install a code editor for Java, I use IntelliJ.
 You'll then need the appropriate installation on Java on your computer, and the Epicbot API located on their website. 
+
+## Credit where its due 
+
+A big thanks to Suko and Fallacy for helping familiarize me with the API, as Im sure that will still take some experience as time goes on. 
+And another thanks to Fallacy for the Custom Walking function/Keying me into the usage of widgets. You fixed a bug for me, mad thanks. 
