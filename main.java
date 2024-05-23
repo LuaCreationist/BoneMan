@@ -22,10 +22,10 @@ public class main extends LoopScript {
     final boolean debugging = true;//if outputs to console are enabled
     //Locations
     Area[] safespot_Areas = {
-      new Area(3213,3721,3217,3722),
-      new Area(3226,3725,3231,3727),
-      new Area(3236,3725,3240,3726),
-      new Area(3246,3721,3249,3724)
+      new Area(3211,3717,3214,3720),
+      new Area(3226,3722,3231,3723),
+      new Area(3236,3723,3239,3724),
+      new Area(3244,3720,3247,3722)
     };
     Area[] boneyard_Areas = {
             new Area(3217,3729,3220,3731),
