@@ -28,13 +28,6 @@ To use this script, you're going to need to install a code editor for Java, I us
 
 You'll then need the appropriate installation of Java on your computer, and the Epicbot API located on their website. 
 
-## Things that could be improved
-
-This version of BoneMan does not take enemies into consideration, it only accounts for when it is in combat or low on essential stats (HP/Stamina).
-
-A huge improvement would be to have the bot check the number of enemies in Boneyard areas before picking one, to eliminate ones with a higher enemy density. 
-
-Because this improvement has not been implemented, the current bot can still occasionally die due to running through multiple enemies occasionally occuring. 
 
 ## Credit where its due 
 
@@ -59,7 +52,7 @@ Cons:
 
 -Slow
 
--Can still die
+-Can still die, allbeit not often in my limited testing.
 
 -Does not avoid enemies
 
@@ -67,7 +60,7 @@ Cons:
 
 -Pathing from GE -> Safespot or Safespot -> GE poses some risk. 
 
-What to improve: 
+## What to improve: 
 
 Developing a method for the bot to avoid enemies and pick more ideal locations for bones would greatly reduce the amount of time taken per inventory of bones. 
 
