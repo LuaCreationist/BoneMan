@@ -27,6 +27,12 @@ Im also looking for feedback and criticism, as this is the first time in a long 
 To use this script, you're going to need to install a code editor for Java, I use IntelliJ.
 You'll then need the appropriate installation on Java on your computer, and the Epicbot API located on their website. 
 
+## Things that could be improved
+
+This version of BoneMan does not take enemies into consideration, it only accounts for when it is in combat or low on essential stats (HP/Stamina) 
+A huge improvement would be to have the bot check the number of enemies in Boneyard areas before picking one, to eliminate ones with a higher enemy density. 
+Because this improvement has not been implemented, the current bot can still occasionally die due to running through multiple enemies occasionally occuring. 
+
 ## Credit where its due 
 
 A big thanks to Suko and Fallacy for helping familiarize me with the API, as Im sure that will still take some experience as time goes on. 
