@@ -25,7 +25,8 @@ Im also looking for feedback and criticism, as this is the first time in a long 
 ## Using this code
 
 To use this script, you're going to need to install a code editor for Java, I use IntelliJ.
-You'll then need the appropriate installation on Java on your computer, and the Epicbot API located on their website. 
+
+You'll then need the appropriate installation of Java on your computer, and the Epicbot API located on their website. 
 
 ## Things that could be improved
 
@@ -45,17 +46,25 @@ And another thanks to Fallacy for the Custom Walking function/Keying me into the
 Pros: 
 
 -Successfully De-Aggros enemies 
+
 -Handles failure states well 
+
 -Keyturn functionality (Hit play and walk away) 
+
 -Helps get new bots ready to buy early equipment
+
 -Automatically enables defense mode and disables auto-retaliate
 
 Cons: 
 
 -Slow
+
 -Can still die
+
 -Does not avoid enemies
+
 -Does not avoid players
+
 -Pathing from GE -> Safespot or Safespot -> GE poses some risk. 
 
 What to improve: 
