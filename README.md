@@ -69,3 +69,17 @@ Putting a middle pathing point between the GE and Safespot would prevent the bot
 Finding the most optimal places to check for strong players near and implementing them into the interruptions would keep the bot safe from PKing. 
 
 
+## Data 
+
+The statistics I have collected are currently very limited, as the bots been through some updates and I have not had 20 hours to set aside. 
+
+That being said, this data will give you an expectation when using the bot. 
+
+The bot should walk to and from the Grand Exchange in around 4 minutes average. 
+
+The bot should finish collecting a full inventory between 70-105 minutes. 
+
+Each inventory of bones should be worth 7-8.8k GP. 
+
+And across all testing (Though limited) The bot has not died. Though it is very obvious it would eventually if run long enough.
+
