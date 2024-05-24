@@ -29,11 +29,41 @@ You'll then need the appropriate installation on Java on your computer, and the 
 
 ## Things that could be improved
 
-This version of BoneMan does not take enemies into consideration, it only accounts for when it is in combat or low on essential stats (HP/Stamina) 
+This version of BoneMan does not take enemies into consideration, it only accounts for when it is in combat or low on essential stats (HP/Stamina).
+
 A huge improvement would be to have the bot check the number of enemies in Boneyard areas before picking one, to eliminate ones with a higher enemy density. 
+
 Because this improvement has not been implemented, the current bot can still occasionally die due to running through multiple enemies occasionally occuring. 
 
 ## Credit where its due 
 
 A big thanks to Suko and Fallacy for helping familiarize me with the API, as Im sure that will still take some experience as time goes on. 
 And another thanks to Fallacy for the Custom Walking function/Keying me into the usage of widgets. You fixed a bug for me, mad thanks. 
+
+## Pros, Cons, and desired improvements. 
+
+Pros: 
+
+-Successfully De-Aggros enemies 
+-Handles failure states well 
+-Keyturn functionality (Hit play and walk away) 
+-Helps get new bots ready to buy early equipment
+-Automatically enables defense mode and disables auto-retaliate
+
+Cons: 
+
+-Slow
+-Can still die
+-Does not avoid enemies
+-Does not avoid players
+-Pathing from GE -> Safespot or Safespot -> GE poses some risk. 
+
+What to improve: 
+
+Developing a method for the bot to avoid enemies and pick more ideal locations for bones would greatly reduce the amount of time taken per inventory of bones. 
+
+Putting a middle pathing point between the GE and Safespot would prevent the bot from navigating through PvP Event areas. 
+
+Finding the most optimal places to check for strong players near and implementing them into the interruptions would keep the bot safe from PKing. 
+
+
